@@ -1,0 +1,48 @@
+Total points: 2 * 26 = 52.000000
+Your output			Expected output
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+1								1
+2								2
+-9								-9
+12								12
+-3								-3
+Hello!								Hello!
+No such file or directory					No such file or directory
+No such file or directory					No such file or directory
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+Input/output error						Input/output error
+No such file or directory					No such file or directory
+No such file or directory					No such file or directory
+No such file or directory					No such file or directory
+No such file or directory					No such file or directory
+iam a string from stdin						iam a string from stdin
+65535								65535
+							      >	Line: 
+							      >	1
+							      >	Line: 
+							      >	2
+							      >	Line: 
+							      >	-9
+							      >	Line: 
+							      >	12
+							      >	Line: 
+							      >	-3
+							      >	Line: 
+							      >	gv9[Y7:<QUbsb[kFlBdpS8?unJnsCgYBfr5W1@sRu]]_Pa
+							      >	Line: 
+							      >	>D;rM^C\\9>b4a
+							      >	Line: 
+							      >	Q]t?hAvia
+							      >	Line: 
+							      >	qTof9V?2tc>7HlJt`c;Jgll\0CLRBN;K:2:SiYVuTdDmhn1QYLkXQo=Q;i;]O
+							      >	Line: 
+							      >	;;@\t1>14J4lRk8?KS=K@X_eLk_rIJ[eU3IbDWcH9hL[[e2>@@j`0Q]MTDW6_

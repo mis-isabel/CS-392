@@ -1,0 +1,176 @@
+Test 0                                                                       Test 0
+make                                                                         make
+
+Test 1                                                                       Test 1
+./a.out testint1 %d                                                          ./a.out testint1 %d
+1                                                                            1
+3                                                                            3
+5                                                                            5
+10                                                                           10
+15                                                                           15
+20                                                                           20
+
+*************************************************************************    *************************************************************************
+
+Test 2                                                                       Test 2
+./a.out testint2 %d                                                          ./a.out testint2 %d
+-111                                                                         -111
+-100                                                                         -100
+-90                                                                          -90
+-31                                                                          -31
+-30                                                                          -30
+-20                                                                          -20
+-19                                                                          -19
+-19                                                                          -19
+-15                                                                          -15
+-10                                                                          -10
+-1                                                                           -1
+
+*************************************************************************    *************************************************************************
+
+Test 3                                                                       Test 3
+./a.out testint3 %d                                                          ./a.out testint3 %d
+-111                                                                         -111
+-100                                                                         -100
+-90                                                                          -90
+-31                                                                          -31
+-30                                                                          -30
+-20                                                                          -20
+-19                                                                          -19
+-19                                                                          -19
+-15                                                                          -15
+-10                                                                          -10
+-1                                                                           -1
+1                                                                            1
+3                                                                            3
+5                                                                            5
+10                                                                           10
+15                                                                           15
+20                                                                           20
+
+*************************************************************************    *************************************************************************
+
+Test 4                                                                       Test 4
+./a.out testfloat1 %f                                                        ./a.out testfloat1 %f
+0.103400                                                                     0.103400
+0.449820                                                                     0.449820
+0.880000                                                                     0.880000
+0.890000                                                                     0.890000
+1.200000                                                                     1.200000
+1.222230                                                                     1.222230
+9.088800                                                                     9.088800
+12.081000                                                                    12.081000
+
+*************************************************************************    *************************************************************************
+
+Test 5                                                                       Test 5
+./a.out testfloat2 %f                                                        ./a.out testfloat2 %f
+-12.081000                                                                   -12.081000
+-9.088800                                                                    -9.088800
+-1.222230                                                                    -1.222230
+-1.200000                                                                    -1.200000
+-0.890000                                                                    -0.890000
+-0.880000                                                                    -0.880000
+-0.449820                                                                    -0.449820
+-0.103400                                                                    -0.103400
+
+*************************************************************************    *************************************************************************
+
+Test 6                                                                       Test 6
+./a.out testfloat3 %f                                                        ./a.out testfloat3 %f
+-1234.123047                                                                 -1234.123047
+-221.000000                                                                  -221.000000
+-220.000000                                                                  -220.000000
+-13.000000                                                                   -13.000000
+-13.000000                                                                   -13.000000
+0.000000                                                                     0.000000
+12.000000                                                                    12.000000
+18.000000                                                                    18.000000
+20.000000                                                                    20.000000
+20.000000                                                                    20.000000
+90.012001                                                                    90.012001
+
+*************************************************************************    *************************************************************************
+
+Test 7                                                                       Test 7
+./a.out nofile %d                                                            ./a.out nofile %d
+File failed to open.                                                         File failed to open.
+
+*************************************************************************    *************************************************************************
+
+Test 8                                                                       Test 8
+./a.out nofile %f                                                            ./a.out nofile %f
+File failed to open.                                                         File failed to open.
+
+*************************************************************************    *************************************************************************
+
+Test 9                                                                       Test 9
+./a.out generic struct_char                                                  ./a.out generic struct_char
+Before sorting:                                                              Before sorting:
+[-2019 O 0xffffcfadcc4c]                                                     [-2019 O 0xffffcfadcc4c]
+[2020 2 0xaaaad4ecac80]                                                      [2020 2 0xaaaad4ecac80]
+[142 K 0xffff9f8e1100]                                                       [142 K 0xffff9f8e1100]
+[0 & 0xaaaad4ecb0b0]                                                         [0 & 0xaaaad4ecb0b0]
+[-10 z 0xaaaad4ecafe8]                                                       [-10 z 0xaaaad4ecafe8]
+After sorting:                                                               After sorting:
+[0 & 0xaaaad4ecb0b0]                                                         [0 & 0xaaaad4ecb0b0]
+[2020 2 0xaaaad4ecac80]                                                      [2020 2 0xaaaad4ecac80]
+[142 K 0xffff9f8e1100]                                                       [142 K 0xffff9f8e1100]
+[-2019 O 0xffffcfadcc4c]                                                     [-2019 O 0xffffcfadcc4c]
+[-10 z 0xaaaad4ecafe8]                                                       [-10 z 0xaaaad4ecafe8]
+
+*************************************************************************    *************************************************************************
+
+Test 10                                                                      Test 10
+./a.out generic struct_int                                                   ./a.out generic struct_int
+Before sorting:                                                              Before sorting:
+[-2019 O 0xffffcfadcc4c]                                                     [-2019 O 0xffffcfadcc4c]
+[2020 2 0xaaaad4ecac80]                                                      [2020 2 0xaaaad4ecac80]
+[142 K 0xffff9f8e1100]                                                       [142 K 0xffff9f8e1100]
+[0 & 0xaaaad4ecb0b0]                                                         [0 & 0xaaaad4ecb0b0]
+[-10 z 0xaaaad4ecafe8]                                                       [-10 z 0xaaaad4ecafe8]
+After sorting:                                                               After sorting:
+[-2019 O 0xffffcfadcc4c]                                                     [-2019 O 0xffffcfadcc4c]
+[-10 z 0xaaaad4ecafe8]                                                       [-10 z 0xaaaad4ecafe8]
+[0 & 0xaaaad4ecb0b0]                                                         [0 & 0xaaaad4ecb0b0]
+[142 K 0xffff9f8e1100]                                                       [142 K 0xffff9f8e1100]
+[2020 2 0xaaaad4ecac80]                                                      [2020 2 0xaaaad4ecac80]
+
+*************************************************************************    *************************************************************************
+
+Test 11                                                                      Test 11
+./a.out generic struct_ptr                                                   ./a.out generic struct_ptr
+Before sorting:                                                              Before sorting:
+[-2019 O 0xffffcfadcc4c]                                                     [-2019 O 0xffffcfadcc4c]
+[2020 2 0xaaaad4ecac80]                                                      [2020 2 0xaaaad4ecac80]
+[142 K 0xffff9f8e1100]                                                       [142 K 0xffff9f8e1100]
+[0 & 0xaaaad4ecb0b0]                                                         [0 & 0xaaaad4ecb0b0]
+[-10 z 0xaaaad4ecafe8]                                                       [-10 z 0xaaaad4ecafe8]
+After sorting:                                                               After sorting:
+[2020 2 0xaaaad4ecac80]                                                      [2020 2 0xaaaad4ecac80]
+[-10 z 0xaaaad4ecafe8]                                                       [-10 z 0xaaaad4ecafe8]
+[0 & 0xaaaad4ecb0b0]                                                         [0 & 0xaaaad4ecb0b0]
+[142 K 0xffff9f8e1100]                                                       [142 K 0xffff9f8e1100]
+[-2019 O 0xffffcfadcc4c]                                                     [-2019 O 0xffffcfadcc4c]
+
+*************************************************************************    *************************************************************************
+
+Test End                                                                     Test End
+==================================
+Mismatch (major, more than 0%):  0
+
+Mismatch (minor, less than 0%):  0
+
+Missing:  0
+
+Extra:  0
+
+==================================
+
+Points:
+Each of the following test cases will take 5 points off:
+* 
+
+Your total deduction is 0,
+so your automatic part on this homework is
+44 - 0 = 44
